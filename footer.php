@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-xxl-4">
                     <div class="single-footer">
-                        <img src="assets/img/logo.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         <p>Leo site ultrices donec a volutpat penatibus mind
  suscipit faucibus and duis pharetra name sociosqu phasellus nunce accumsan</p>
                         <div class="footer-social">

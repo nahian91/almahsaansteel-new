@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">=
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -35,7 +35,7 @@
                 <div class="col-xxl-3">
                     <div class="logo">
                         <a href="">
-                            <img src="assets/img/logo.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         </a>
                     </div>
                 </div>
