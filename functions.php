@@ -7,6 +7,7 @@ function almahsaansteel_setup() {
 
     register_nav_menus(array(
         'primary' => __('Primary Menu', 'almahsaansteel'),
+        'footer' => __('Footer Menu', 'almahsaansteel'),
     ));
 }
 add_action('after_setup_theme', 'almahsaansteel_setup');

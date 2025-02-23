@@ -17,14 +17,11 @@
                 <div class="col-xxl-3 offset-md-1">
                     <div class="single-footer">
                         <h4>QUICK LINKS</h4>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Who We Are</a></li>
-                            <li><a href="">What We Do</a></li>
-                            <li><a href="">Our Projects</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">FAQs</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu(array(
+                                'theme_location' => 'footer',
+                            ));
+                        ?>
                     </div>
                 </div>
                 <div class="col-xxl-4">
@@ -40,7 +37,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-copy">
-                        <p>Copyright &copy; 2025 by AL MASHAAN STEEL CO.</p>
+                        <p>Copyright &copy; 2025 by AL MASHAAN STEEL CO. Design & Developed by <a href="https://infinityflamesoft.com/" target="_blank">Infinity Flame Soft.</a></p>
                     </div>
                 </div>
             </div>
