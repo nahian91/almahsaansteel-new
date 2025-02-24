@@ -4,8 +4,7 @@
                 <div class="col-xxl-4">
                     <div class="single-footer">
                         <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
-                        <p>Leo site ultrices donec a volutpat penatibus mind
- suscipit faucibus and duis pharetra name sociosqu phasellus nunce accumsan</p>
+                        <p><?php echo esc_html('Since 2006, Al Mashaan Steel Co. has been a pioneering force in Kuwait’s metal fabrication industry, delivering a diverse range of solutions crafted to elevate the safety, functionality, and aesthetics of both residential and industrial environments. ', 'almashaansteel');?></p>
                         <div class="footer-social">
                             <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                             <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -16,7 +15,7 @@
                 </div>
                 <div class="col-xxl-3 offset-md-1">
                     <div class="single-footer">
-                        <h4>QUICK LINKS</h4>
+                        <h4><?php echo esc_html('QUICK LINKS', 'almashaansteel');?></h4>
                         <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'footer',
@@ -26,23 +25,32 @@
                 </div>
                 <div class="col-xxl-4">
                     <div class="single-footer">
-                        <h4>CONTACT US</h4>  
-                        <span>Email: info@almashaansteel.com</span>
-                        <span>Phone: +965 24751120/30</span>
-                        <span>Address: Al Mashaan Steel Co. Building 49, <br/>
- street 101, block 9, South Subhan <br/> Industrial Area, Kuwait</span>
+                        <h4><?php echo esc_html('CONTACT US', 'almashaansteel');?></h4>  
+                        <span><?php echo esc_html('Email: info@almashaansteel.com', 'almashaansteel');?></span>
+                        <span><?php echo esc_html('Phone: +965 24751120/30', 'almashaansteel');?></span>
+                        <span>
+                            <?php 
+                            echo wp_kses( 
+                                __( 'Address: Al Mashaan Steel Co. Building 49, <br/> street 101, block 9, South Subhan <br/> Industrial Area, Kuwait', 'almashaansteel' ), 
+                                array( 'br' => array() ) 
+                            ); 
+                            ?>
+                        </span>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-copy">
-                        <p>Copyright &copy; 2025 by AL MASHAAN STEEL CO. Design & Developed by <a href="https://infinityflamesoft.com/" target="_blank">Infinity Flame Soft.</a></p>
+                        <p><?php echo wp_kses('Copyright &copy; 2025 by AL MASHAAN STEEL CO. Design & Developed by <a href="https://infinityflamesoft.com/" target="_blank">Infinity Flame Soft.</a>', ['a' => ['href' => [], 'target' => []]]); ?></p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <?php wp_footer();?>
+    <button id="scrollToTop" class="scroll-top">
+        <i class="fa fa-arrow-up"></i>
+    </button>
 </body>
 </html>

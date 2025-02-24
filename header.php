@@ -6,6 +6,10 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
     <div class="header-top">
         <div class="container">
             <div class="row">
@@ -18,10 +22,7 @@
                         </ul>
                         <div class="header-top-right">
                             <div class="header-top-lang"> 
-                                <select>
-                                    <option>English</option>
-                                    <option>Arabic</option>
-                                </select>
+                                <?php echo do_shortcode('[gtranslate]');?>
                             </div>
                         </div>
                     </div>
