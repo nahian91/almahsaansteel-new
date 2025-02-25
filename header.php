@@ -33,15 +33,15 @@
     <header class="header-area">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xxl-3">
+                <div class="col-6 col-md-3">
                     <div class="logo">
                         <a href="">
                             <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-xxl-9">
-                    <div class="mainemenu">
+                <div class="col-6 col-md-9">
+                    <div class="mainemenu" id="menu">
                         <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'primary',

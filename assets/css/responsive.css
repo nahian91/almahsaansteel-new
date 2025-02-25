@@ -1,0 +1,40 @@
+@media only screen and (max-width: 767px) {    
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-top-menu {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        margin: 12px 0;
+    }
+    .logo img {
+        max-width: 100%;
+    }
+    .slicknav_menu {
+        display: block;
+        background-color: transparent;
+    }
+    .working-process__icon::before {
+        display: none;
+    }
+    #menu > .menu-menu-1-container {
+        display: none !important;
+    }
+    .mainemenu ul {
+        flex-direction: column;
+    }
+    
+.menu-menu-1-container {
+    background-color: #333;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+  }
+  .breadcumb-area h4 {
+	font-size: 35px;
+}
+}

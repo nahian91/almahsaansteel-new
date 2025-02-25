@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xxl-4">
-                    <div class="single-footer">
+                    <div class="single-footer mb-5 mb-md-0">
                         <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         <p><?php echo esc_html('Since 2006, Al Mashaan Steel Co. has been a pioneering force in Kuwait’s metal fabrication industry, delivering a diverse range of solutions crafted to elevate the safety, functionality, and aesthetics of both residential and industrial environments. ', 'almashaansteel');?></p>
                         <div class="footer-social">
@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-xxl-3 offset-md-1">
-                    <div class="single-footer">
+                    <div class="single-footer mb-5 mb-md-0">
                         <h4><?php echo esc_html('QUICK LINKS', 'almashaansteel');?></h4>
                         <?php
                             wp_nav_menu(array(
