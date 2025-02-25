@@ -6,10 +6,10 @@
                         <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         <p><?php echo esc_html('Since 2006, Al Mashaan Steel Co. has been a pioneering force in Kuwait’s metal fabrication industry, delivering a diverse range of solutions crafted to elevate the safety, functionality, and aesthetics of both residential and industrial environments. ', 'almashaansteel');?></p>
                         <div class="footer-social">
-                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/almashaansteelco" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/almashaansteelstore/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>

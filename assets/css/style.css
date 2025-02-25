@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --primary-color: #d25c3c;
@@ -13,6 +13,7 @@ a{
     text-decoration: none;
     color: #333;
     transition: .3s;
+    font-weight: 500;
 }
 a:hover{
   color: var(--primary-color);
@@ -23,16 +24,17 @@ ul{
     padding: 0;
 }
 body{
-    font-family: "Roboto", serif;
+  font-family: "Montserrat", serif;
     font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
+    line-height: 27px;
 }
 
 /* Header */
 
 .header-top {
-    background-color: #f4f4f4;
+    background-color: #1a2a36;
     padding: 15px 0;
     border-bottom: 1px solid #f4f4f4;
   }
@@ -46,9 +48,15 @@ body{
     align-items: center;
     justify-content: space-between;
   }
+  .header span{
+    color: #fff;
+  }
   .header-top-menu {
     display: flex;
     gap: 35px;
+  }
+  .header-top-menu li a{
+    color: #fff;
   }
 .mainemenu ul {
     display: flex;
@@ -66,7 +74,11 @@ body{
   }
   .mainemenu ul li:last-child a {
 	background-color: var(--primary-color);
-	color: #fff;
+	color: #fff !important;
+}
+.mainemenu ul li.current-menu-item a {
+	border-color: var(--primary-color);
+  color: var(--primary-color)
 }
   .mainemenu ul li a:hover {
     border-color: var(--primary-color);
@@ -79,24 +91,25 @@ body{
 
 .breadcumb-area {
     background-color: var(--primary-color);
-    padding: 80px 0;
+    padding: 60px 0;
   }
   .breadcumb-area h4 {
     margin-bottom: 0;
     color: #fff;
     text-transform: uppercase;
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 60px;
+    font-weight: 800;
   }
 
 /* Footer */
 .footer-area {
 	padding-top: 80px;
-  background-color: #fff;
+  background-color: #1a2a36;
+  color: #fff;
 }
 .single-footer h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 40px;
   }
   .single-footer ul li {
@@ -104,7 +117,8 @@ body{
     padding-bottom: 5px;
   }
   .single-footer ul li a {
-    font-weight: 400;
+    font-weight: 500;
+    color: #fff;
   }
   .single-footer ul li a:hover{
     color: var(--primary-color);
@@ -126,6 +140,9 @@ body{
   .footer-copy p {
     margin: 0;
   }
+  .footer-copy p a{
+    color: #fff;
+  }
   
 .footer-social {
     display: flex;
@@ -135,14 +152,15 @@ body{
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #999;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     text-align: center;
     line-height: 40px;
     border-radius: 7px;
   }
   .footer-social a:hover{
     background-color: var(--primary-color);
+    color: #fff;
   }
 
 
@@ -170,61 +188,6 @@ body{
     text-transform: capitalize;
   }
 
-
-
-
- 
-ul.filters {
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 30px 0;
-}
-
-ul.filters > li {
-  list-style: none;
-  display: inline-block;
-}
-
-ul.filters > li > a {
-  display: block;
-  color: #434e5e;
-  text-decoration: none;
-  padding: 5px 20px;
-}
-
-ul.filters > li > a:hover {
-  background-color: #e6e9ed;
-}
-
-ul.filters > li.active > a {
-  color: #fff;
-  background-color: rgba(252, 41, 74, 1);
-}
-
-.filters.filters-tag {
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  font-size: 75%;
-  line-height: 1;
-  text-align: center;
-}
-
-ul.filters.filters-tag > li > a {
-  display: block;
-  color: #434e5e;
-  border-radius: 0.25rem;
-  padding: 0.3rem 0.6rem;
-}
-
-ul.filters.filters-tag > li.active > a {
-  color: #fff;
-  background-color: rgba(252, 41, 74, 0.8);
-}
-
-.filters-tag {
-  font-size: 0.9rem;
-}
 
 .project {
   position: relative;
@@ -307,32 +270,6 @@ h4.title {
   color: #fff;
 }
 
-
-
-.faq-top-content {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.faq-image img {
-  max-width: 50px;
-}
-.faq-answer {
-  margin-right: 80px;
-}
-.faq-answer.space {
-  margin-left: 80px;
-}
-
-.faq-link a {
-  display: inline-block;
-  background-color: #d25c3c;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 7px 30px;
-  border-radius: 45px;
-}
-
 .header-area.sticky {
   position: fixed;
   background-color: #fff;
@@ -398,4 +335,33 @@ h4.title {
 }
 span.primary{
   color: var(--primary-color);
+}
+
+#almashaanProjectsLider {
+  margin-top: 120px;
+}
+.project-slider-heading h4 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #333;
+}
+.project-slider-top-link {
+  text-align: right;
+}
+.project-slider-top-link a {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.project-slider-top-link a i {
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
 }
