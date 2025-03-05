@@ -66,7 +66,6 @@ body{
     display: block;
     font-size: 17px;
     padding: 10px 20px;
-    border: 1px solid transparent;
     border-radius: 30px;
   }
   .mainemenu ul li:last-child{
@@ -77,11 +76,10 @@ body{
 	color: #fff !important;
 }
 .mainemenu ul li.current-menu-item a {
-	border-color: var(--primary-color);
   color: var(--primary-color)
 }
   .mainemenu ul li a:hover {
-    border-color: var(--primary-color);
+    color: var(--primary-color);
   }
   .mainemenu ul li {
     margin-left: 5px;
@@ -104,8 +102,7 @@ body{
 /* Footer */
 .footer-area {
 	padding-top: 80px;
-  background-color: #1a2a36;
-  color: #fff;
+  color: #10181c;
 }
 .single-footer h4 {
     font-size: 20px;
@@ -118,7 +115,7 @@ body{
   }
   .single-footer ul li a {
     font-weight: 500;
-    color: #fff;
+    color: #10181c;
   }
   .single-footer ul li a:hover{
     color: var(--primary-color);
@@ -146,7 +143,7 @@ body{
   
 .footer-social {
     display: flex;
-    gap: 30px;
+    gap: 10px;
   }
   .footer-social a {
     display: inline-block;
