@@ -11,7 +11,7 @@
         <div class="spinner"></div>
     </div>
     <div class="header-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="header">
@@ -31,7 +31,7 @@
         </div>
     </div>
     <header class="header-area">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-6 col-md-3">
                     <div class="logo">
