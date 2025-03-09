@@ -109,8 +109,9 @@ h2, h3, h4, h5, h6{
     margin-bottom: 0;
     color: #fff;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 800;
+    font-family: "Work Sans", sans-serif;
   }
 
 /* Footer */
@@ -119,9 +120,10 @@ h2, h3, h4, h5, h6{
   color: #10181c;
 }
 .single-footer h4 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    font-family: "Work Sans", sans-serif;
   }
   .single-footer ul li {
     margin-bottom: 5px;
@@ -140,7 +142,7 @@ h2, h3, h4, h5, h6{
     margin-bottom: 10px;
   }
   .single-footer p {
-    margin: 30px 0;
+    margin: 20px 0;
   }
   
 .footer-copy {
@@ -152,7 +154,8 @@ h2, h3, h4, h5, h6{
     margin: 0;
   }
   .footer-copy p a{
-    color: #fff;
+    color: #333;
+    font-weight: 600;
   }
   
 .footer-social {
