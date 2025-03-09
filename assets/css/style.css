@@ -356,8 +356,9 @@ span.primary{
 }
 .project-slider-heading h4 {
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 700;
   color: #fff;
+  font-family: "Work Sans";
 }
 .project-slider-top-link {
   text-align: right;
