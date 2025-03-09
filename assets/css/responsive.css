@@ -51,4 +51,11 @@
   .menu-menu-container .menu li a {
     color: #fff;
   }
+  .single-footer h4 {
+	margin-bottom: 10px;
+}
+.scroll-top{
+    display: none;
+}
+  
 }
