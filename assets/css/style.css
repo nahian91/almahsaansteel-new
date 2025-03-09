@@ -453,30 +453,30 @@ span.primary{
 	background-color: var(--primary-color) !important;
 }
 
-.menu-menu-1-container {
+.menu-menu-container {
   display: flex;
   justify-content: flex-end;
   width: 100%;
 }
-.menu-menu-1-container .menu {
+.menu-menu-container .menu {
   display: flex;
   gap: 35px;
   align-items: center;
 }
-.menu-menu-1-container .menu li a {
+.menu-menu-container .menu li a {
   font-size: 17px;
   font-weight: 500;
 }
-.menu-menu-1-container .menu li:last-child a {
+.menu-menu-container .menu li:last-child a {
   color: #fff;
   background-color: var(--primary-color);
   display: inline-block;
   padding: 10px 40px;
   border-radius: 30px;
 }
-.menu-menu-1-container .menu li a:hover {
+.menu-menu-container .menu li a:hover {
   color: var(--primary-color);
 }
-.menu-menu-1-container .menu li:last-child a:hover {
+.menu-menu-container .menu li:last-child a:hover {
   color: #fff;
 }

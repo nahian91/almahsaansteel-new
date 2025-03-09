@@ -19,14 +19,14 @@
     .working-process__icon::before {
         display: none;
     }
-    #menu > .menu-menu-1-container {
+    #menu > .menu-menu-container {
         display: none !important;
     }
     .mainemenu ul {
         flex-direction: column;
     }
     
-.menu-menu-1-container {
+.menu-menu-container {
     background-color: #333;
     position: absolute;
     right: 0;
@@ -41,14 +41,14 @@
 .header-area .container-fluid {
     padding: 0 10px;
   }
-  .menu-menu-1-container .menu {
+  .menu-menu-container .menu {
     flex-direction: column;
     align-content: center;
     align-items: center;
     width: 100%;
     gap: 15px;
   }
-  .menu-menu-1-container .menu li a {
+  .menu-menu-container .menu li a {
     color: #fff;
   }
 }
