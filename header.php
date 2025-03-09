@@ -32,28 +32,11 @@
     </div>
     <header class="header-area">
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-6 col-md-3">
-                    <div class="logo">
-                        <a href="">
+        <div class="col-12">
+                <nav class="navbar navbar-expand-lg">
+  <a href="<?php echo site_url();?>">
                             <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         </a>
-                    </div>
-                </div>
-                <div class="col-6 col-md-9">
-                    <div class="mainemenu" id="menu">
-                        <?php
-                            wp_nav_menu(array(
-                                'theme_location' => 'primary',
-                            ));
-                        ?>
-                    </div>
-                    
-                </div>
-                <div class="col-12">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -64,9 +47,7 @@
                             ));
                         ?>
     </div>
-  </div>
 </nav>
                 </div>
-            </div>
         </div>
     </header>

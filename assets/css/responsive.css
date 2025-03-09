@@ -37,4 +37,18 @@
   .breadcumb-area h4 {
 	font-size: 35px;
 }
+
+.header-area .container-fluid {
+    padding: 0 10px;
+  }
+  .menu-menu-1-container .menu {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+  .menu-menu-1-container .menu li a {
+    color: #fff;
+  }
 }
