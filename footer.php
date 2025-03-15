@@ -1,5 +1,5 @@
 <footer class="footer-area">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-xxl-4">
                     <div class="single-footer mb-5 mb-md-0">
