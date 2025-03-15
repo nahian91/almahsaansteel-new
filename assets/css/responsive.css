@@ -61,11 +61,19 @@
 	font-size: 40px;
 }
 .almashaan-slider-list {
-	flex-direction: column;
-	gap: 10px;
+	flex-direction: row;
+	align-items: flex-start;
 }
 .almashaan-slider-content {
 	margin-bottom: 30px;
+}
+.almashaan-slider-list li {
+	display: flex;
+	flex-direction: center;
+    font-style: 14px;
+}
+.almashaan-slider-list li img {
+	max-width: 20px !important;
 }
   
 }
