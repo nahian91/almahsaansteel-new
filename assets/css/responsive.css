@@ -69,8 +69,8 @@
 }
 .almashaan-slider-list li {
 	display: flex;
-	flex-direction: center;
-    font-style: 14px;
+	flex-direction: column;
+    font-size: 14px;
 }
 .almashaan-slider-list li img {
 	max-width: 20px !important;
