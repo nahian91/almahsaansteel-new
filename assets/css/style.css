@@ -90,7 +90,7 @@ h2, h3, h4, h5, h6{
 	color: #fff !important;
 }
 .mainemenu ul li.current-menu-item a {
-  color: var(--primary-color)
+  color: var(--charcoal-black)
 }
   .mainemenu ul li a:hover {
     color: var(--primary-color);
