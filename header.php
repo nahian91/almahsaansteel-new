@@ -32,22 +32,22 @@
     </div>
     <header class="header-area">
         <div class="container-fluid">
-        <div class="col-12">
-                <nav class="navbar navbar-expand-lg">
-  <a href="<?php echo site_url();?>">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md">
+                    <a href="<?php echo site_url();?>">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <?php
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <?php
                             wp_nav_menu(array(
                                 'theme_location' => 'primary',
                             ));
                         ?>
-    </div>
-</nav>
-                </div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
