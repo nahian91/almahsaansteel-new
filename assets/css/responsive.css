@@ -3,6 +3,9 @@
         flex-direction: column;
         justify-content: center;
     }
+    .header span {
+        display: none;
+    }
     .header-top-menu {
         flex-direction: column;
         gap: 5px;
