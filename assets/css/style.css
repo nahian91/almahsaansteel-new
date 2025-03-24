@@ -498,3 +498,23 @@ span.primary{
   opacity: 1;
   visibility: visible;
 }
+
+.menu-menu-container .menu li ul.sub-menu li:last-child {
+  background-color: transparent !important;
+}
+.menu-menu-container .menu li ul.sub-menu li a {
+  background-color: transparent;
+  color: #333;
+  padding: 5px;
+}
+.menu-menu-container .menu li ul.sub-menu li {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.menu-menu-container .menu li ul.sub-menu li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.menu-menu-container .menu li ul.sub-menu li a:hover {
+  color: var(--brick-orange) !important;
+}
