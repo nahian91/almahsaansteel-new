@@ -464,8 +464,10 @@ span.primary{
   align-items: center;
 }
 .menu-menu-container .menu li a {
-  font-size: 17px;
-  font-weight: 500;
+	font-size: 17px;
+	font-weight: 500;
+	display: block;
+	padding: 20px 0;
 }
 .menu-menu-container .menu li:last-child a {
   color: #fff;
@@ -503,13 +505,12 @@ span.primary{
   background-color: transparent !important;
 }
 .menu-menu-container .menu li ul.sub-menu li a {
-  background-color: transparent;
-  color: #333;
-  padding: 5px;
+	background-color: transparent;
+	color: #333;
+	padding: 15px;
 }
 .menu-menu-container .menu li ul.sub-menu li {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
 }
 .menu-menu-container .menu li ul.sub-menu li:last-child {
   padding-bottom: 0;
@@ -517,4 +518,16 @@ span.primary{
 }
 .menu-menu-container .menu li ul.sub-menu li a:hover {
   color: var(--brick-orange) !important;
+}
+
+.menu-menu-container .menu li.menu-item-has-children:after {
+  content: "\f078";
+  position: absolute;
+  right: -20px;
+  top: 22px;
+  font-family: "Font Awesome 6 FREE";
+  font-weight: 900;
+}
+.menu-menu-container .menu li.menu-item-has-children {
+  margin-right: 15px;
 }
