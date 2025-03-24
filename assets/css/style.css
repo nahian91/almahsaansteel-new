@@ -480,3 +480,21 @@ span.primary{
 .menu-menu-container .menu li:last-child a:hover {
   color: #fff;
 }
+
+
+.menu-menu-container .menu li {
+  position: relative;
+}
+.menu-menu-container .menu li ul.sub-menu {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 220px;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.menu-menu-container .menu li:hover ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
