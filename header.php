@@ -15,7 +15,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="header">
-                        <span>Welcome to AL MASHAAN STEEL CO.</span>
                         <ul class="header-top-menu">
                             <li><a href=""><i class="fa-regular fa-envelope"></i> info@almashaansteel.com</a></li>
                             <li><a href=""><i class="fa-solid fa-phone"></i> +965 24751120/30</a></li>
