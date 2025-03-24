@@ -33,7 +33,7 @@
     <header class="header-area">
         <div class="container-fluid">
             <div class="col-12">
-                <nav class="navbar navbar-expand-md">
+                <nav class="navbar navbar-expand-xxl">
                     <a href="<?php echo site_url();?>">
                         <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="">
                         </a>
