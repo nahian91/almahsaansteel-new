@@ -6,10 +6,6 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="spinner"></div>
-    </div>
     <div class="header-top">
         <div class="container-fluid">
             <div class="row">

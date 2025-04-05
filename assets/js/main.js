@@ -1,12 +1,3 @@
-// Hide Preloader on Page Load
-window.addEventListener("load", function () {
-    let preloader = document.getElementById("preloader");
-    preloader.style.opacity = "0";
-    setTimeout(() => {
-        preloader.style.display = "none";
-    }, 500); // Smooth fade-out effect
-});
-
 // Sticky Header on Scroll
 window.addEventListener("scroll", function () {
     let header = document.querySelector(".header-area");

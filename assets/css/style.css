@@ -53,9 +53,9 @@ h2, h3, h4, h5, h6{
     border-bottom: 1px solid #f4f4f4;
   }
 .header-area {
-	padding: 20px 0;
-  background-color: #fff;
+	padding: 15px 0;
   border-bottom: 1px solid #f4f4f4;
+  background-color: #efefef;
 }
 .header {
     display: flex;
