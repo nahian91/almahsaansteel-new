@@ -4,9 +4,9 @@
   src: url('../webfonts/bernoru-blackultraexpanded.ttf');
 }
 :root{
-    --primary-color: #d25c3c;
+    --primary-color: #939699;
     --text-color: #393939;
-    --brick-orange: #d25c3c;
+    --brick-orange: #939699;
     --charcoal-black: #10181c;
     --dark-gray: #4b4b4b;
 }
@@ -304,7 +304,7 @@ h4.title {
   right: 20px;
   width: 50px;
   height: 50px;
-  background: #d25c3c;
+  background: #939699;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -319,7 +319,7 @@ h4.title {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #d25c3c;
+  background: #939699;
   display: flex;
   justify-content: center;
   align-items: center;
